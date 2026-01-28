@@ -36,7 +36,7 @@ Study-App redefines the learning experience with a clean, focus-driven UI. It al
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/NikunjRanga/study-app.git
 cd study-app
 ```
 
