@@ -5,7 +5,7 @@ const SEED_DATA = [
         title: "Introduction to React",
         description: "Master the fundamentals of component-based architecture.",
         thumbnail: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-        url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
         type: "mp4",
         duration: "10:32",
         views: 12402
@@ -14,7 +14,7 @@ const SEED_DATA = [
         title: "Modern ES6+ Features",
         description: "Elevate your code with advanced JavaScript syntax patterns.",
         thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-        url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
         type: "mp4",
         duration: "08:45",
         views: 8300
@@ -32,7 +32,7 @@ const SEED_DATA = [
         title: "Node.js Architecture",
         description: "Building scalable backend services with Express.",
         thumbnail: "https://images.unsplash.com/photo-1627398242450-270171b0e7b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-        url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
         type: "mp4",
         duration: "15:20",
         views: 15200
@@ -41,7 +41,7 @@ const SEED_DATA = [
         title: "JWT Security Patterns",
         description: "Implementing stateless authentication systems.",
         thumbnail: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-        url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
         type: "mp4",
         duration: "09:50",
         views: 9100
