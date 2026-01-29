@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "db:setup": "node scripts/setup_likes_table.js && node scripts/setup_progress_table.js && node scripts/seed.js"
+    "db:setup": "node scripts/setup_users_table.js && node scripts/seed.js && node scripts/setup_likes_table.js && node scripts/setup_progress_table.js"
   },
   "keywords": [],
   "author": "",
