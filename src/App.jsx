@@ -6,6 +6,7 @@ import './App.css';
 // Components
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Preloader from './components/Preloader';
 
 // Pages
 import Home from './pages/Home';
@@ -20,10 +21,21 @@ import { Toaster } from 'react-hot-toast';
 
 // Main App Component
 const App = () => {
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    // Simulate initial asset loading
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Router>
       <div className="min-h-screen flex flex-col bg-white">
         <Toaster position="top-center" />
+        {loading && <Preloader />}
         {/* Header needs hooks from Router, so it must be inside Router */}
         <Header />
 
